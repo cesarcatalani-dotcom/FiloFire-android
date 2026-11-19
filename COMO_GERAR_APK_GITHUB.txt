@@ -1,0 +1,21 @@
+FILO FIRE - GERAR APK SEM INSTALAR ANDROID STUDIO
+
+1. Extraia este ZIP no computador.
+2. Entre em github.com e crie um repositorio NOVO (Public ou Private).
+3. Na pagina do repositorio, clique em "uploading an existing file" (ou Add file > Upload files).
+4. Envie TODO O CONTEUDO da pasta FiloFireAndroid, inclusive a pasta oculta .github.
+   ATENCAO: O build.gradle.kts e a pasta .github devem ficar na RAIZ do repositorio,
+   nao dentro de outra pasta FiloFireAndroid.
+5. Clique em Commit changes.
+6. Abra Actions > Gerar APK Filo Fire > Run workflow (se nao iniciou automaticamente).
+7. Aguarde o build. Clique na execucao concluida e, em Artifacts,
+   baixe FiloFire-APK-Android (ZIP). Extraia app-debug.apk e instale no Android.
+
+O arquivo APK e compilado nos servidores do GitHub. Nao e necessario instalar
+Android Studio nem baixar o SDK no seu computador.
+
+ATENCAO: O APK ainda nao foi compilado/testado neste ambiente. Se houver erro,
+envie o print do log da etapa vermelha para diagnostico.
+
+SEGURANCA: FLAG_SECURE so funciona dentro do app Android; nao impede fotos
+tiradas por outro aparelho. O jogo usa bibliotecas externas via internet.

@@ -1,0 +1,17 @@
+FILO FIRE - ANDROID FLAG_SECURE
+
+Este pacote contem o jogo HTML em app/src/main/assets/index.html e um aplicativo Android nativo que ativa FLAG_SECURE antes de exibir o jogo.
+
+COMO GERAR O APK:
+1. Instale Android Studio em um computador.
+2. Abra a pasta FiloFireAndroid como projeto.
+3. Aguarde a sincronizacao do Gradle e instale os SDKs sugeridos.
+4. Menu Build > Build App Bundle(s) / APK(s) > Build APK(s).
+5. Encontre app-debug.apk em app/build/outputs/apk/debug/ e instale no Android.
+
+IMPORTANTE:
+- Este arquivo ZIP NAO e um APK ja compilado.
+- A protecao FLAG_SECURE so funciona dentro do app instalado, nao no Chrome.
+- O HTML usa Tailwind, FontAwesome e Three.js por CDN: internet necessaria para carregar esses recursos.
+- Nao foi possivel compilar/testar neste ambiente sem Android SDK/Gradle.
+- FLAG_SECURE nao impede foto da tela com outro aparelho nem garante comportamento identico em todas as versoes de Android.
